@@ -8,26 +8,41 @@
 * Return: Always 0 (Success)
 */
 int main(void)
+
 {
 
-	int d;
+	int i, j;
 
-	for (d = 0; d < 90; d++)
+
+	for (i = 0; i < 9; i++)
 
 	{
-		for ()
+
+		for (j = 1; j <= 9; j++)
+
 		{
-			putchar((d / 10) + '0');
-			putchar((d % 10) + '0');
+			if (j > i)
+			{
+			putchar(i + '0');
+
+			putchar(j + '0');
+
 		}
 
-		if (d != 89)
+		if (i != 8)
 
 		{
+
 			putchar(',');
+
 			putchar(' ');
+
 		}
+
 	}
+
 	putchar('\n');
+
 	return (0);
+
 }
