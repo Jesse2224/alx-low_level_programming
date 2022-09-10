@@ -19,13 +19,13 @@ int main(void)
 			{
 			if (a > p && p > i)
 			{
-				putchar(i + '0')
-				putchar(p + '0')
-				putchar(a + '0')
+				putchar(i + '0');
+				putchar(p + '0');
+				putchar(a + '0');
 					if (i != 7)
 				{
-					putchar(',')
-					putchar(' ')
+					putchar(',');
+					putchar(' ');
 				}
 			}
 			}
