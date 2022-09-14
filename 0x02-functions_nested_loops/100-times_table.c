@@ -13,12 +13,11 @@ int main(){
 int print_times_table(int n){
 
     if(n<=15 && n>=0){
+	int col=0;
+    	for (col=0; col<=n; col++){
 
-    	for (int col=0; col<=n; col++){
-
-    		// INITIAL COLUMN
-
-    		for (int row=0; row<=n; row++) {
+		int row=0;
+    		for (row=0; row<=n; row++) {
 
     			printf("%d \t", col*row);
 
