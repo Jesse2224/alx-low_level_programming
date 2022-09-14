@@ -2,8 +2,7 @@
 #include "main.h"
 
 int print_times_table(int n);
-int main(void)
-{
+int main(){
     print_times_table(15);
 
     return 0;
