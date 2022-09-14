@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int print_times_table(int n);
-int main(){
+{
 
     print_times_table(15);
 
