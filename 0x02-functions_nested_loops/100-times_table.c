@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include "main.h"
 
 int print_times_table(int n);
+int main(void)
 {
     print_times_table(15);
 
