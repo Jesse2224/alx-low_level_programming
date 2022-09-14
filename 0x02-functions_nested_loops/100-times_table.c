@@ -5,10 +5,10 @@
 * @n: input
 * Return: Always 0 (Success)
 */
-void print_times_table(int n)
+int main()
 {
 	print_times_table(15);
-	return (0);
+	return 0;
 }
 
 int print_times_table(int n){
