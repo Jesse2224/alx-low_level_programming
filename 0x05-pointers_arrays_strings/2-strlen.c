@@ -6,10 +6,9 @@
 *@s: value to be evaluate.
 *Return: not.
 */
-{
 
+int _strlen(char *s)
 {
-
 	int c;
 
 	for (c = 0; s[c] != 0; c++)
