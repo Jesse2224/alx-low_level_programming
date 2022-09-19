@@ -7,7 +7,7 @@
 *Return: not.
 */
 
-int _strlen(const char *str)
+int _strlen(char *str)
 
 {
 
