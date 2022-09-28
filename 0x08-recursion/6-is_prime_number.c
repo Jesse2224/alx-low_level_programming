@@ -24,7 +24,6 @@ int is_divisible(int num, int div)
 }
 
 /**
-
 * is_prime_number - Checks if a number is prime.
 * @n: The number to be checked.
 *
