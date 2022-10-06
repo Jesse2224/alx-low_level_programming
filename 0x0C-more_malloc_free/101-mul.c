@@ -42,6 +42,7 @@ char *create_xarray(int size)
 	int index;
 
 	array = malloc(sizeof(char) * size);
+
 	if (array == NULL)
 		exit(98);
 	for (index = 0; index < (size - 1); index++)
@@ -64,7 +65,6 @@ char *iterate_zeroes(char *str)
 	while (*str && *str == '0')
 		str++;
 	return (str);
-
 }
 
 /**
@@ -84,7 +84,7 @@ int get_digit(char c)
 	if (digit < 0 || digit > 9)
 	{
 		printf("Error\n");
-	exit(98);
+		exit(98);
 	}
 	return (digit);
 }
